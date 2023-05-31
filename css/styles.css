@@ -714,6 +714,12 @@ background: #E7E9FC;
     color: var(--color-backgraund);
     margin-bottom: 16px;
 }
+.modal-contact-form-field-wraper{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99
+}
 .modal-contact-form-field-wraper,
 .contact-form-chekbox-wrapper {
   display: block;
