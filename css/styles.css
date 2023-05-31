@@ -483,6 +483,7 @@ background-color:  #31D0AA;
     margin-bottom: 16px;
 }
 .subscribe-form {
+  display: flex
   gap 24px;
 }
 .subscribe-form-mail {
@@ -510,7 +511,8 @@ background-color:  #31D0AA;
     justify-content: center;
     align-items: center;
     gap: 16px;
-  min-width: 169px;
+  min-width: 165px;
+  height: 40px;
     padding: 8px 24px;
     border-radius: 4px;
     font-family: var(--main-font-family);
