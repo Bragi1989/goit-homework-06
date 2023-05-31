@@ -841,15 +841,15 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
-.contact-form-chekbox:checked + .contact-form-own-chekbox {
+.contact-form-chekbox:checked + .contact-form-checkbox-icon {
   border: none;
 background-color: var(--accent-color);
 fill: var(--color-btm-font);
 }
-.contact-form-chekbox:focus + .contact-form-own-chekbox {
+.contact-form-chekbox:focus + .contact-form-checkbox-icon {
   outline: 2px solid rgba(0, 0, 255, 0.5);
 }
-.contact-form-chekbox:checked + .contact-form-own-chekbox > .contact-form-chekmark-icom {
+.contact-form-chekbox:checked + .contact-form-checkbox-icon > .contact-form-chekmark-icom {
   
   opacity: 1;
 }
