@@ -483,11 +483,8 @@ background-color:  #31D0AA;
     margin-bottom: 16px;
 }
 .subscribe-form {
-  display: flex
-  gap 24px;
-}
-.subscribe-form-mail {
   display: flex;
+  gap 24px;
 }
 .subscribe-mail {
   width: 264px;
@@ -533,6 +530,7 @@ background-color:  #31D0AA;
 }
 .subscribe-btn-icon {
   display: block;
+  margin-left: 16px;
 }
 
 /* Portfolio */
