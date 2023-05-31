@@ -749,7 +749,7 @@ background: #E7E9FC;
 .contact-icon {
   position: absolute;
   display: block;
-    top: 0;
+    top: 8px;
     left: 11px;
     
 } 
