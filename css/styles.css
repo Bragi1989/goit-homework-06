@@ -470,6 +470,63 @@ letter-spacing: 0.02em
 background-color:  #31D0AA;
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+}
+.footer-subskribe-desk {
+  font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.subscribe-form {
+  display: flex;
+}
+.subscribe-mail {
+  width: 264px;
+  height: 40px ;
+  border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2E2F42;
+    color: var(--color-btm-font);
+    padding-left: 16px;
+}
+.contact-form-icon {
+  margin-left: 80px;
+}
+.subscribe-btn {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  min-width: 169px;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-btm-font);
+    background: var(--second-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 24px;
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--accent-color);
+}
+.subscribe-btn-icon {
+  display: block;
+}
+
 /* Portfolio */
 
 .section-portfolio {
