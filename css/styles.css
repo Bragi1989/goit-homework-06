@@ -484,7 +484,7 @@ background-color:  #31D0AA;
 }
 .subscribe-form {
   display: flex;
-  gap 24px;
+  gap: 24px;
 }
 .subscribe-mail {
   width: 264px;
@@ -507,7 +507,6 @@ background-color:  #31D0AA;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 16px;
   min-width: 165px;
   height: 40px;
     padding: 8px 24px;
