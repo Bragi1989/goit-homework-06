@@ -849,13 +849,18 @@ fill: var(--color-btm-font);
 .contact-form-chekbox:focus + .contact-form-checkbox-icon {
   outline: 2px solid rgba(0, 0, 255, 0.5);
 }
-.contact-form-chekbox:checked + .contact-form-checkbox-icon > .contact-form-chekmark-icom {
+.contact-form-chekbox:checked + .contact-form-chekbox-wrapper > .contact-form-checkbox-icon {
+  background-color: #404BBF;
+    border: none;
+    fill: #FFFFFF;
+}
+/* .contact-form-chekbox:checked + .contact-form-checkbox-icon > .contact-form-chekmark-icom {
   
   opacity: 1;
 }
 .contact-form-chekmark-icom {
   opacity: 0;
-}
+} */
 .contact-form-chekbox-desk {
     font-family: var(--main-font-family);
     font-weight: 400;
