@@ -390,9 +390,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 }
 /* -------Footer------ */
 .footer-link {
-  display: flex;
-  left: 0px;
-  top: 2280px;
   background: var(--color-backgraund);
   padding: 100px 0;
 }
@@ -498,6 +495,9 @@ background-color:  #31D0AA;
     background-color: transparent;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+::placeholder {
+  color: var(--color-btm-font);
 }
 .contact-form-icon {
   margin-left: 80px;
@@ -722,8 +722,6 @@ background: #E7E9FC;
 .modal-contact-form-field-wraper,
 .contact-form-chekbox-wrapper {
   display: block;
-  margin-top: 8px;
-  margin-bottom: 4px;
 }
 .contact-form-list {
   margin-bottom: 8px;
@@ -736,8 +734,7 @@ background: #E7E9FC;
   width: 100%;
     height: 40px;
     background-color: transparent;
-    padding-left: 38px;
-    margin-bottom: 8px;
+    padding-left: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     outline: transparent;
@@ -754,23 +751,15 @@ background: #E7E9FC;
     left: 16px;
     transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+fill: var(--color-backgraund);
 } 
 
-.contact-icon-list {
-  display: block;
-  background: var(--color-backgraund);
-}
 .contact-form-input:focus + .contact-icon {
   fill: var(--second-color);
 }
 
 .contact-form-field-disck {
   display: block;
-  width: 54px;
-    height: 14px;
-    left: 0px;
-    top: 198px;
     font-family: var(--main-font-family);
     font-weight: 400;
     font-size: 12px;
@@ -783,7 +772,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px
 }
 .contact-form-comment {
-  margin-bottom: 4px;
+  display: block;
   width: 100%;
   height: 120px;
   resize: none;
@@ -834,9 +823,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .contact-form-own-chekbox {
-  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  padding: 3px;
   cursor: pointer;
 }
 
@@ -848,9 +835,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .contact-form-chekbox:checked + .contact-form-checkbox-icon > .contact-form-chekmark-icom {
   
   opacity: 1;
-}
-.contact-form-chekmark-icom {
-  opacity: 0;
 }
 .contact-form-chekbox-desk {
     font-family: var(--main-font-family);
@@ -886,7 +870,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
-    margin: 24px auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     border: none;
